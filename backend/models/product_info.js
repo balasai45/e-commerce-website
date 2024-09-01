@@ -20,10 +20,10 @@ const productSchema= new mongoose.Schema({
         type:Number,
         required:false,
     },
-    productImage:{
-        type:Image,
-        required:true,
-    }
+    // productImage:{
+    //     type:Image,
+    //     required:true,
+    // }
 })
-const productModel= new mongoose.model('productInfo',productSchema)
+const productModel= new mongoose.model('productModel',productSchema)
 export default productModel;
